@@ -1,5 +1,5 @@
 #!/usr/bin/ruby
-puts ARGV[0]
+puts "$1-words $2-time"
 class T
 def initialize(a,t)
     @a = a
